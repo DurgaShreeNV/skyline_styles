@@ -6,7 +6,7 @@ import {
   getTotalCustomers,
   getTotalSales,
 } from "@/lib/actions/actions";
-import { CircleRupee, ShoppingBag, UserRound } from "lucide-react";
+import { indian-rupee, ShoppingBag, UserRound } from "lucide-react";
 
 export default async function Home() {
   const totalRevenue = await getTotalSales().then((data) => data.totalRevenue);
@@ -24,7 +24,7 @@ export default async function Home() {
         <Card>
           <CardHeader className="flex flex-row justify-between items-center">
             <CardTitle>Total Revenue</CardTitle>
-            <CircleRupee className="max-sm:hidden" />
+            <indian-rupee className="max-sm:hidden" />
           </CardHeader>
           <CardContent>
             <p className="text-body-bold">₹ {totalRevenue}</p>
