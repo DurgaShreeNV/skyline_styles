@@ -1,4 +1,4 @@
-# Elegance Estate: MERN Stack Real Estate Application with React and Advanced Authentication
+# Skyline-Styles Admin Web application: Full stack web application for admin dashboard
 
 ![image](public/project3.png)
 
